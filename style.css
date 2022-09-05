@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Oswald, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Oswald, sans-serif;
+}
+
+#topbar {
+    background: rgb(248, 246, 246);
+}
+
+.topbarwrapper {
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    margin: auto auto 10px;
+    overflow: hidden;
+}
+
+.menubar ul li {
+    display: flex;
+    float: left;
+    margin-right: 66px;
+    font-weight: 700;
+    margin-top: 43px;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menubar ul li:hover {
+    color: rgb(249, 0, 77);
+}
+
+.menubar {
+    float: right;
+}
+
+img {
+    width: 150px;
+    margin-top: 12px;
+}
+
+.logo {
+    display: contents;
+}
+
+#aboutme {
+    background: url("image/pexels-tranmautritam-245032.jpg") center center / cover;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.abouttext h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 102px;
+    margin-right: 106px;
+    margin-bottom: 4px;
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+
+.abouttext h2 {
+    margin-left: 832px;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: large;
+    font-family: unset;
+}
+
+.abouttext p {
+    width: 267px;
+    font-weight: 700;
+    float: right;
+    text-align: center;
+    margin-right: 104px;
+    margin-top: 18px;
+    line-height: 24px;
+    text-transform: inherit;
+    font-family: sans-serif;
+}
+
+.myworkwrappere {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.myworkpic {
+    width: 570px;
+    float: left;
+}
+
+.myworkpic img {
+    width: 540px;
+}
+
+.myworksabout {
+    width: 620px;
+    float: right;
+    margin-top: 4px;
+}
+
+.myworkdec h2 {
+    font-size: 44px;
+    margin-bottom: 8px;
+    margin-left: 184px;
+    line-height: 1.2em;
+}
+
+.myworkdec p {
+    margin-bottom: 7px;
+    color: rgb(102, 97, 97);
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.myworkstext ul {
+    padding: 0px;
+    margin: 0px 0px 23px -14px;
+    list-style: none;
+    width: 310px;
+    float: left;
+}
+
+.myworkstext ul li {
+    padding: 17px;
+    transition: all 0.5s ease 0s;
+}
+
+.myworkstext ul li:hover {
+    color: rgb(249, 0, 77);
+}
+
+.myworkstext ul li i {
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.myworkbtn a {
+    background-color: rgb(249, 0, 77);
+    padding: 9px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.myworkbtn a:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+#logoslide {
+    background-color: rgb(248, 246, 246);
+    padding-bottom: 20px;
+}
+
+.logotext {
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+}
+
+.logotext h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+.uplogo img {
+    display: block;
+    float: left;
+    width: 298px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.downlogo img {
+    display: block;
+    float: left;
+    width: 298px;
+    border: 1px solid rgb(221, 221, 221);
+}
